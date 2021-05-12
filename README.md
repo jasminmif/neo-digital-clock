@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Neomorphism design digital clock
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Demo
+![](demo.gif)
+
+
+## Libraries used
+
+-   [react](https://github.com/facebook/react)
+-   [react-transition-group](https://github.com/reactjs/react-transition-group)
 
 ## Available Scripts
 
