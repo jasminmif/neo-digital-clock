@@ -1,0 +1,47 @@
+.row {
+  position: relative;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 3px 3px 6px #bebebe, -3px -3px 9px 0px #ffffff;
+
+  border-radius: 5px;
+  height: fit-content;
+  transition: transform 0.5s ease-in;
+}
+
+.magnifier {
+  position: absolute;
+  height: 54px;
+  width: 54px;
+  border-radius: 100px;
+  margin: -7px -7px;
+  border-radius: 50px;
+  background: linear-gradient(119deg,rgb(0 0 0 / 21%) 0%, rgb(255 255 255 / 0%) 70%);
+  box-shadow: 3px 2px 7px #828282, -4px -1px 6px #ffffff;
+  opacity: 1;
+  transition: transform 0.3s;
+}
+
+.magnifier-fade-enter {
+  pointer-events: none;
+  opacity: 0;
+}
+
+.magnifier-fade-enter-active {
+  transition: opacity 450ms ease-in-out;
+  transition-delay: 0.1s;
+  position: absolute;
+  opacity: 1;
+}
+
+.magnifier-fade-exit {
+  transform: translateY(0px);
+  pointer-events: none;
+  opacity: 1;
+}
+
+.magnifier-fade-exit-active {
+  transition: opacity 450ms ease-in-out;
+  position: absolute;
+  opacity: 0;
+}
